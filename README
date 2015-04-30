@@ -1,0 +1,35 @@
+****************
+* Exercise Statistics
+* Glooko
+* 04/29/15
+* Ehsan Khaliki
+****************
+
+OVERVIEW:
+
+ Reads a file containing exercise information and returns different statistics about
+ the exercise habits
+
+
+INCLUDED FILES:
+
+ ExerciseMain.java - The driver class that the user uses to run the program
+ ExerciseModel.java - This represents a model for a single exercise
+ ExerciseController.java - This class has static methods which operate on the exercise list
+ ExerciseFactory.java - This class parses the exercise file and adds it to the controller's list
+ README - this file
+
+BUILDING AND RUNNING:
+
+ To run the application:
+ $ javac ExerciseMain.java
+ $ java ExerciseMain
+
+
+PROGRAM DESIGN:
+
+ The program can return different number of top and worst exercise days depending on what you
+ set the constants to.  You can also set the minimum days needed for highest and lowest exercise.
+ These basically add a search functionality which allows you to set filters.
+
+ I have made all the classesI will be able to talk more about the program design and development in future.
